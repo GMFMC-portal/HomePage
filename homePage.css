@@ -1,0 +1,300 @@
+/* page color palette 
+lt. pink: #f1e3e8
+tan: #ccc3bd
+lt. green/blue: #528789
+dk. green/blue: #2e5a64
+blue/black: #233442
+gray/blue: #6993a4
+*/
+body {
+    background-color: #e6dfdb;
+}
+
+/* Header style elements */
+
+/* Header style elements */
+
+
+img#logo {
+    height: 12vh;
+    margin-top: 2vh;
+}
+
+.fa {
+    margin: 3px;
+    color: #233442;
+    float: right;
+    font-size: 2vw;
+}
+
+img#CRCP {
+    float: right;
+    height:8vh;
+    margin-top: 2vh;
+}
+
+#head.container-fluid {
+    background-color: #ccc3bd;
+
+}
+
+.member:hover > div {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg) translateZ(1px);
+}
+
+h2#title {
+   color: #233442;
+   transform: translateY(50%);
+   font-family: 'Handlee', cursive;
+   font-size: 4vw;
+
+}
+
+  /* Navbar style elements */
+
+  .bg-light {
+      background-color: #528789 !important;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #f1e3e8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(241,227,232,.5);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f1e3e8;
+}
+
+.form-control {
+    background-color: #e9e2de;
+    color: #233442;
+}
+
+.btn-outline-success {
+    color: #f1e3e8;
+    border-color: #f1e3e8;
+}
+
+/* Carousel style elements */
+
+/*a {
+    color: yellow;
+}*/
+
+.carousel-caption {
+    left: 15%;
+}
+
+.btn-primary, .btn-primary:hover {
+    color: #233442;
+    background-color: #f1e3e8;
+    border-color: #f1e3e8;
+}
+
+.btn-success, .btn-success:hover {
+    color: #f1e3e8;
+    background-color: #528789;
+    border-color: #528789;
+}
+
+.carousel-caption.d-none.d-md-block.text-left p{
+    text-align: left !important;
+}
+
+.carousel-caption.d-none.d-md-block.text-center p{
+    text-align: center !important;
+}
+
+
+    @media (max-width: 768px) {
+        .btn-responsive {
+          padding:2px 4px;
+          font-size:80%;
+          line-height: 1;
+        }
+      }
+      
+      @media (min-width: 769px) and (max-width: 992px) {
+        .btn-responsive {
+          padding:4px 9px;
+          font-size:90%;
+          line-height: 1.2;
+        }
+      }
+
+/* Icon section elements */
+
+p.margin20 {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a.deco-none, a.deco-none:active,a.deco-none:visited,a.deco-none:focus {
+    color:#233442 !important;
+    text-decoration:none !important;
+    outline: none;
+}
+
+i#icons {
+    float:none;
+    font-size: 6vh;
+    color: #2e5a64;
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.col-md-3.col-xs-12 {
+    background-color: #ccc3bd;
+    padding: 0;
+    max-width: 23.2%;
+    margin: 1vh auto 1vh auto;
+    
+}
+
+#icon-cont.col-md-3.col-xs-12 {
+    box-shadow: 0 0 20px 8px rgba(0,0,0,.22);
+}
+
+.col-md-8.col-xs-12 p{
+    text-align: left;
+    color: #555f61;
+}
+
+h3#content {
+    text-align: center;
+}
+
+img.modalImg {
+    max-width: 100%;
+    height: auto;
+}
+
+i.fa.fa-github.fa-5x {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 9em;
+}
+
+#modalContainer.col-md-3.col-xs-12 {
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+
+#exampleModalLiveLabel.modal-title {
+    color: #f1e3e8;
+}
+
+.close {
+    color: #f1e3e8;
+}
+
+.modal-header {
+    background-color: #6993a4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+    color: #707C80;
+}
+
+h4 {
+    color: #2e5a64;
+}
+
+hr {
+    border-top: 1px solid rgba(82,135,137,0.3);
+}
+
+a.deco-style {
+    color:#157da8;
+}
+
+.btn-secondary {
+    color: #f1e3e8;
+    background-color: #6993a4;
+    border-color: #6993a4;
+}
+
+
+/* Footer style */
+
+.footer {
+    /*background-image: URL("http://portal.gulfcouncil.org/img/bg-footer-1-2000x813.jpg");*/
+    background-position: top;
+    background: #3a3a3a;
+    position: relative;
+    text-align: center;
+    height: 300px;
+    }
+
+.footer p {
+    padding-top: 50px;
+    color: #868686;
+        
+    }
+        
+.footer a {
+    color: #868686;
+    }
+
+img.foot-img {
+    margin-left: -6vh;
+}
+
+/*drop down menu*/
+
+.dropdown-submenu{
+    position: relative;
+}
+.dropdown-submenu a::after{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 7px;
+    top: 40%;
+}
+.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+@media (max-width: 992px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+}
+
+.dropdown-menu {
+    background-color: #f1e3e8;
+}
+
+.dropdown-item {
+    color: #528789;
+}
+
+a.dropdown-item.dropdown-toggle:hover, a.dropdown-item:hover {
+    color: #528789;
+    background-color: #cabac0;
+}
+

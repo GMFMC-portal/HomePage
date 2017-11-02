@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Overwrite CSS link -->
+    <link rel="stylesheet" type="text/css" href="homePage.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/css/tether-theme-arrows-dark.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/css/tether-theme-arrows.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/css/tether-theme-basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/css/tether.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Playfair+Display|Satisfy" rel="stylesheet">
+
+</head>
+  <body>
+        
+    <!-- Header -->
+    <div class="container-fluid" id="head">
+      <div class="row">
+          <div class= "col-md-1">
+              <img id="logo" src="full_color.png">
+          </div>
+          <div class="col-md-8">
+              <h2 id="title">The Coral Portal</h2>
+          </div>
+          <div class="col-md-3">
+              <img id = "CRCP" src="coral-id_3.png"> 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-3 ml-auto">
+                  <a href="https://www.facebook.com/GulfCouncil/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                  <a href="https://claire-roberts.github.io/" target="_blank"><i class="fa fa-rss-square"></i></a> 
+                  <a href="https://www.youtube.com/channel/UCGN-u3-1SBDguwSVeBBsQGg" target="_blank"><i class="fa fa-youtube-square"></i></a>
+                  <a href="https://github.com/claire-roberts" target="_blank"><i class="fa fa-github"></i></a>  
+          </div>
+      </div>
+  </div>
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="http://portal.gulfcouncil.org/Home_Page/HP2.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Storyboards</a>
+                          <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/Lionfish.html">Lionfish: The Invasion</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/GoliathGrouper.html">Goliath Grouper</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/CoralReefManagement.html">Coral Reef Management</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/Deepwaterandmanagement.html">Deep-water Coral in the Gulf of Mexico</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/CoralDecline.html">Causes and Consequences of Coral Reef Decline</a>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Interactive Maps</a>
+                          <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/coral.html">Coral Viewer</a>
+                            <a class="dropdown-item" href="http://noaa.maps.arcgis.com/apps/webappviewer/index.html?id=99832718e8aa46c9a1b203578613341e">Predictive Modeling of Deep-sea Coral Habitat</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/coralhapc.html">Coral HAPC Viewer</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/EFHMap.html">Essential Fish Habitat Map</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/FisheryManagementAreas.html">Fishery Management Areas</a>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Management Resources</a>
+                          <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/EFHreview.html">Essential Fish Habitat 5-Year Review</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/SpinyLobsterManagement.html">Spiny Lobster Closed Areas</a>
+                          </ul>
+                        </li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Educational Resources</a>
+                          <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/blog.html">The Portal Blog</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/CreaturesOfTheDeep/">Creatures of the Deep</a>
+                            <a class="dropdown-item" href="http://portal.gulfcouncil.org/EcosystemsOfTheDeep/">Ecosystems of the Deep</a>
+                            <a class="dropdown-item" href="https://github.com/claire-roberts">Github</a>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+        </nav>
+
+        <!-- Carousel All image material and size must be in image-->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <!--Slide 1 -->
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="slide1.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block text-center">
+                        <p><a class="btn btn-success btn-responsive" href="mailto:portal@gulfcouncil.org" role="button">Provide Feedback</a></p>
+                      </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="slide2.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                      <p><a class= "btn btn-primary btn-responsive" href="http://portal.gulfcouncil.org/FisheryManagementAreas.html" 
+                        target="_blank" role="button">Learn More</a></p>
+                    </div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="slide3.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                            <p><a class= "btn btn-primary btn-responsive" href="http://portal.gulfcouncil.org/Lionfish.html" 
+                              target="_blank" role="button">Learn More</a></p>
+                          </div>
+                    </div>
+                  </div>
+                
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        <!-- fluid-row with 3 containers with icons -->
+<br>
+
+<!-- Storyboards Modal Box -->
+
+<div id="exampleModalLive" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLiveLabel">Storyboards</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3 col-xs-12" id="modalContainer">
+                <img class="modalImg" src="http://flylifemagazine.com/wp-content/uploads/2015/01/lionfish-750x500.jpg">
+                <figcaption>Image credit: NOAA</figcaption>
+              </div>
+              <div class="col-md-8 col-xs-12">
+                <h4>Lionfish: The Invasion</h4>
+                <p>The spread of lionfish has been fast, and now they're threatening fishery resources and the health of corals in the 
+                  Gulf of Mexico. This storyboard explains how lionfish arrived in the Gulf, their impact on coral and fishery ecosystems,
+                  and how you can support migitigation efforts. <a class = "deco-style" href="http://portal.gulfcouncil.org/Lionfish.html"
+                  target="_blank">Launch site</a>
+                </p>
+                <hr>
+              </div>
+              <div class="col-md-3 col-xs-12" id="modalContainer">
+                <img class="modalImg" src="http://www.noaanews.noaa.gov/stories2011/images/Goliath%20Grouper_NOAA%20FKNMS.jpg">
+              <figcaption>Image credit: NOAA/FKNMS</figcaption>
+              </div>
+              <div class="col-md-8 col-xs-12">
+                <h4>Goliath Grouper</h4>
+                <p>Goliath grouper are the largest grouper in the Gulf of Mexico; reaching 8 feet in length and 
+                  weighing up to 850 lbs. This impressive species was historically depleted but has made quite a comeback.
+                  Unfortunately, interactions between goliath grouper and anglers still occur, and these interactions plus
+                  thier increased abundance has led to controversy over management strategies.  This storyboard showcases some 
+                  interesting facts about goliath grouper and highlights management-related challenges surrounding the species. 
+                  <a class = "deco-style" href="http://portal.gulfcouncil.org/GoliathGrouper.html"
+                  target="_blank">Launch site</a>
+                </p>
+                <hr>
+              </div>
+              <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="http://oceanexplorer.noaa.gov/explorations/03mex/background/connectivity/media/bright_condylactis_600.jpg">
+                  <figcaption>Image credit: NOAA Ocean Explorer</figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>Coral Reef Management</h4>
+                  <p>Coral reefs are some of the most complex ecosystems on earth and provide habitat for many fish and 
+                    invertebrates.  This storyboard gives a brief look into how the Gulf of Mexico Fishery Management Council 
+                    manages corals throughout the Gulf of Mexico.  It also describes unique coral reefs in the Gulf,
+                    coral management areas, the Endangered Species Act, octocorals, and live rock management. 
+                    <a class = "deco-style" href="http://portal.gulfcouncil.org/CoralReefManagement.html"
+                    target="_blank">Launch site</a>
+                  </p>
+                  <hr>
+                </div>
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                    <img class="modalImg" src="http://portal.gulfcouncil.org/ECordesOverview.jpg">
+                    <figcaption>Image credit: Erik Cordes</figcaption>
+                  </div>
+                  <div class="col-md-8 col-xs-12">
+                    <h4>Deep-water Coral in the Gulf of Mexico</h4>
+                    <p>Deep-water corals are some of the strangest habitats on earth. These corals live at depths of 1000 feet 
+                      or more where sunlight doesn't penetrate and where water temperatures can be near freezing.  Traditional coral 
+                      reefs are mostly made up of stony corals, but in the deep ocean, octocorals, black corals and stony corals all thrive.
+                      This storyboard describes types of deep-water corals, the ecology of living in an inhospitable environment, deep-water 
+                      coral management in the Gulf of Mexico, and local scale and global threats to these corals.
+                      <a class = "deco-style" href="http://portal.gulfcouncil.org/Deepwaterandmanagement.html"
+                      target="_blank">Launch site</a>
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="col-md-3 col-xs-12" id="modalContainer">
+                    <img class="modalImg" src="reefscapegps.jpg">
+                    <figcaption>Image credit: Flower Garden Banks National Marine Sanctuary</figcaption>
+                  </div>
+                  <div class="col-md-8 col-xs-12">
+                    <h4>Causes and Consequences of Coral Reef Decline</h4>
+                    <p>While corals have been resilient to changing oceans throughout time, oceans are changing at an
+                      unprecedented rate. Slow-growing corals may not be able to adapt quickly enough to survive so much variablity.
+                      This storyboard discusses factors that threated the health of our coral reefs.
+                      <a class = "deco-style" href="http://portal.gulfcouncil.org/CoralDecline.html"
+                      target="_blank">Launch site</a>
+                    </p>
+                  </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Web Journals Modal Box -->
+
+  <!-- Interactive Maps Modal Box -->
+
+  <div id="interactiveMapsModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLiveLabel">Interactive Maps</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="C_americana.jpg">
+                  <figcaption>Image credit: BOEM/NOAA/OER</figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>Coral Viewer</h4>
+                  <p>The Gulf of Mexico Fishery Management Council is responsible for the conserveration 
+                    and management of coral and fishery resources in the federal waters of the Gulf of Mexico. The Gulf 
+                    Council manages more than 142 species as part of the Coral Fishery Management Plan including four 
+                    species on the Threatened Species List. This purpose of this map is to create an interactive resources 
+                    to facilitate review, discussion, and decision making ragarding coral management in the Gulf of Mexico.
+                     <a class = "deco-style" href="http://portal.gulfcouncil.org/coral.html"
+                    target="_blank">Launch map</a>
+                  </p>
+                  <hr>
+                </div>
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="blackCoral.jpg">
+                <figcaption>Image credit: NOAA</figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>Predictive Modeling of Deep-sea Coral Habitat</h4>
+                  <p>Deep-sea corals are of particular conservation concern due to their slow growth rates and vulnerability to disturbance.
+                    Predicitive modeling of deep-sea coral habitat can aid conservation planning, inform management of offshore activities affecting 
+                    the seafloor, and guide exploration. Modeling can also lend insights into the environmental factors driving the distribution of deep-sea corals, 
+                    helping to build our understanding of how these unique ecosystems function. This map depicts the predicted likelihood for framework-forming 
+                    deep-sea corals in the Gulf of Mexico.                   
+                    <a class = "deco-style" href="http://noaa.maps.arcgis.com/apps/webappviewer/index.html?id=99832718e8aa46c9a1b203578613341e"
+                    target="_blank">Launch map</a>
+                  </p>
+                  <hr>
+                </div>
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                    <img class="modalImg" src="Madison-Swanson_MPA.jpg">
+                    <figcaption>Image credit: NOAA</figcaption>
+                  </div>
+                  <div class="col-md-8 col-xs-12">
+                    <h4>Coral HAPC Viewer</h4>
+                    <p>The Gulf of Mexico Fishery Management Council is considering changes to current Habitat Area 
+                      of Particular Concern (HAPC) designation based on new information that has identified additional
+                      sensitive areas supporting deep-water corals in the Gulf.  This map allows you to explore 
+                      coral data and locations of current and recommended HAPCs. We understand that spatial data 
+                      can be pretty complicated and often requires the use of expensive software, we hope this 
+                      application allows you to easily explore what the Council is up to with corals in the Gulf. 
+                      <a class = "deco-style" href="http://portal.gulfcouncil.org/coralhapc.html"
+                      target="_blank">Launch map</a>
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="col-md-3 col-xs-12" id="modalContainer">
+                      <img class="modalImg" src="graysnapperelh.jpg">
+                      <figcaption>Image credit: NOAA</figcaption>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                      <h4>Essential Fish Habitat Map</h4>
+                      <p>Three fishery management councils - the Gulf of Mexico, South Atlantic, 
+                        and U.S. Caribbean - are responsible for identifying essential fish habitat (EFH) for federally 
+                        managed species in the southeast United States. Fish require healthy surroundings to survive 
+                        and reproduce. Essential fish habitat includes all types of aquatic habitat - wetlands, coral reefs, 
+                        seagrasses, mangroves - where fish spawn, breed, feed, or grow to maturity. This map allows you to visualize 
+                        where EFH is located in the Gulf of Mexico by fishery management plan, but to really get the most out of 
+                        the map use the pin or draw tool to see which EFH layers exist in any area of the Gulf.
+                        <a class = "deco-style" href="http://portal.gulfcouncil.org/EFHMap.html"
+                        target="_blank">Launch map</a>
+                      </p>
+                      <hr>
+                    </div>
+                    <div class="col-md-3 col-xs-12" id="modalContainer">
+                        <img class="modalImg" src="rods.jpg">
+                        <figcaption>Image credit: Claire Roberts</figcaption>
+                      </div>
+                      <div class="col-md-8 col-xs-12">
+                        <h4>Fishery Management Areas</h4>
+                        <p>Management areas are created by the Gulf of Mexico Fishery Management Council to achieve the 
+                          goals of the Magnuson-Stevens Fishery Conservation and Management Act. This interactive map 
+                          allows users to view fishery management areas, boundaries, and their associated fishing regulations 
+                          in the Gulf of Mexico.
+                          <a class = "deco-style" href="http://portal.gulfcouncil.org/FisheryManagementAreas.html"
+                          target="_blank">Launch map</a>
+                        </p>
+                      </div>
+              </div>
+            </div>
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End interactive maps modal -->
+
+    <!-- Management Resources modal -->
+
+    
+  <div id="managementResourcesModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLiveLabel">Management Resources</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="http://www.habitat.noaa.gov/images/essential_fish_habitat_01.jpg">
+                  <figcaption>Image credit: NOAA</figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>Essential Fish Habitat 5-Year Review</h4>
+                  <p>This resource summaries findings of the Gulf of Mexico Fishery Management Council's 2011-2016
+                    review of essential fish habitat (EFH) in the Gulf of Mexico. This review included the development 
+                    of species profiles, updated habitat association tables, habitat maps, and the bibliography used to 
+                    produce the review. This application is interactive and can be queried by species, or if you explore the EFH maps, 
+                    both species and lifestage.
+                     <a class = "deco-style" href="http://portal.gulfcouncil.org/EFHreview.html"
+                    target="_blank">Launch resource</a>
+                  </p>
+                  <hr>
+                </div>
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="lobster_NOAA.jpg">
+                <figcaption>Image credit: NOAA</figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>Spiny Lobster Closed Areas</h4>
+                  <p>In 2009, the National Marine Fisheries Service completed a Biological Opinion of the Spiny 
+                    Lobster Fishery which concluded that spiny lobster trap fishing activities put sea turtles, 
+                    smalltooth sawfish, and staghorn and elkhorn corals at risk. The Gulf and South Atlantic Fishery 
+                    Management Councils took action to address the concerns outlined in the Biological Opinion, and 
+                    in an effort to protect threatened staghorn and elkhorn corals, closed areas were created in federal 
+                    waters off the Florida Keys that were identified as containing colonies for these coral species. 
+                    Transitting is allowed through these areas, but spiny lobster trapping is prohibited. This map shows 
+                    spiny lobster closed areas and allows geolocation to indicate if you're in a closed area or not.                
+                    <a class = "deco-style" href="http://portal.gulfcouncil.org/SpinyLobsterManagement.html"
+                    target="_blank">Launch map</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Management Resources -->
+
+    <!-- Start Educational Resources -->
+
+        
+  <div id="educationalResourcesModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLiveLabel">Educational Resources</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="blog.jpg">
+                  <figcaption></figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>The Portal Blog</h4>
+                  <p>The Portal Blog was created to highlight GIS data that may otherwise
+                      get lost in all the material on the Portal home page.  Right now, it includes posts on
+                      habitat types and how they are linked to coral reefs and fishery resources in the Gulf of
+                      Mexico. It also provides publications from Portal staffers that are relavent to habitats in the
+                      Gulf. You can find out about recent or upcoming presentations on habitat here too.    
+                     <a class = "deco-style" href="http://portal.gulfcouncil.org/blog.html"
+                    target="_blank">Launch the blog</a>
+                  </p>
+                  <hr>
+                </div>
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                  <img class="modalImg" src="http://portal.gulfcouncil.org/CreaturesOfTheDeep/CreaturesOfTheDeep.jpg">
+                <figcaption></figcaption>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                  <h4>Creatures of the Deep</h4>
+                  <p>When you open this poster, it appears to be just a static image, but don't let that appearance fool
+                    you, if you click a numbered picture you'll be able to learn so much more about what's going on with 
+                    the species in the poster!  Some of the information provided includes a description, geographic 
+                    distribution, and a depth profile.               
+                    <a class = "deco-style" href="http://portal.gulfcouncil.org/CreaturesOfTheDeep/"
+                    target="_blank">Launch the poster</a>
+                  </p>
+                  <hr>
+                </div>
+                <div class="col-md-3 col-xs-12" id="modalContainer">
+                    <img class="modalImg" src="http://portal.gulfcouncil.org/EcosystemsOfTheDeep/EcosystemsOfTheDeepMed.jpg">
+                  <figcaption></figcaption>
+                  </div>
+                  <div class="col-md-8 col-xs-12">
+                    <h4>Ecosystems of the Deep</h4>
+                    <p>Similarly to Creatures of the Deep, when you open this poster, it appears to be just a static image, but don't let that appearance fool
+                        you, if you click a numbered picture you'll be able to learn so much more about what's going on with 
+                        the species in the poster!  Some of the information provided includes a description, geographic 
+                        distribution, and a depth profile.              
+                      <a class = "deco-style" href="http://portal.gulfcouncil.org/EcosystemsOfTheDeep/"
+                      target="_blank">Launch the poster</a>
+                    </p>
+                    <hr>
+                  </div>
+                  <div class="col-md-3 col-xs-12" id="modalContainer">
+                      <i class="fa fa-github fa-5x"></i>
+                    <figcaption></figcaption>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                      <h4>Github</h4>
+                      <p>To all the nerds out there, this one is for you! These links will take you to either Dr. John
+                        Froeschke or Claire Roberts' github pages. We try to keep our work as open source as possible,
+                        so if you're wondering how we build a particular resource found on the Portal, there's a pretty 
+                        good chance the code is available here. We're also happy to answer any questions you have about 
+                        our web application development process.
+                        <br>              
+                        <a class = "deco-style" href="https://github.com/jfroeschke"
+                        target="_blank">Launch John's Page</a>
+                        <br>
+                        <a class = "deco-style" href="https://github.com/claire-roberts"
+                        target="_blank">Launch Claire's Page</a>
+                      </p>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+     <!--Containers-->   
+
+    <div class="container-fluid">
+        <div class= "row">
+          
+            <div class="col-md-3 col-xs-12" id="icon-cont">
+                <a class="deco-none" href="#exampleModalLive" role="button" data-toggle="modal">
+                <p><i class="fa fa-lightbulb-o" aria-hidden="true" id="icons"></i></p>
+                    <h3 id="content">Storyboards</h3>
+                <p class="margin20">Storyboards, previously learning modules, can be found here! We use these 
+                  resources to share information about fish species associated with corals, coral ecosystems,
+                  and much more, accompanied by pictures, videos, and maps.  Click to learn more about specific storyboards.
+                </p>
+                </a>
+            </div>
+            <div class="col-md-3 col-xs-12" id="icon-cont">
+                <a class="deco-none" href="#interactiveMapsModal" role="button" data-toggle="modal">
+                <p><i class="fa fa-globe" aria-hidden="true" id="icons"></i></p>
+                <h3 id="content">Interactive Maps</h3>
+                <p class="margin20">These resources provide users the opportunity to interact with maps depicting various management 
+                  or habitat pertinant information. Rather than assume that we know anything about the questions you're trying
+                  to answer, we provide you with spatial information and allow the flexibility for you to ask your own questions 
+                  of the data. Click to learn more about specific interactive maps.
+                </p>
+                </a>
+              </div>
+            <div class="col-md-3 col-xs-12" id="icon-cont">
+                <a class="deco-none" href="#managementResourcesModal" role="button" data-toggle="modal">
+                <p><i class="fa fa-area-chart" aria-hidden="true" id="icons"></i></p>
+                <h3 id="content">Management Resources</h3>
+                <p class="margin20">Management resources is a pretty broad topic and has some overlap with the others here.
+                  The materials in this category will change frequently and include resources that can help stakeholders or the Gulf 
+                  of Mexico Fishery Management Council with management decisions. Click to learn more about specific 
+                  management resources.
+                </p>
+                </a>
+            </div>
+            <div class="col-md-3 col-xs-12" id="icon-cont">
+                <a class="deco-none" href="#educationalResourcesModal" role="button" data-toggle="modal">
+                <p><i class="fa fa-rss" aria-hidden="true" id="icons"></i></p>
+                <h3 id="content">Educational Resources</h3>
+                <p class="margin20">Similar to Management Resources, Educational Resources is intentially broad and definitely 
+                  overlaps with other material.  To some degree, this category is a catch-all for the materials that don't fit in 
+                  the Web Journals or Interactive Maps categories. It houses things like our Portal Blog and some posters we've developed.
+                  Click to learn more about specific educational resources.
+                </p>
+                </a>
+              </div>
+        </div>
+    </div>
+
+    <!-- Last row - Can't find what you're looking for -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class = "col-md-12">
+          <p> Can't find what you're looking for? Click <a href="http://portal.gulfcouncil.org/Home_Page/allResources.html">here</a> 
+            for webpage with all of our resources.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+                <hr>
+                <p>Gulf of Mexico Fishery Management Council 2203 N. Lois Avenue, Suite 1100, Tampa, FL 33607 USA <br> 
+                P: 813-348-1630 | F: 813-348-1711 <br> 
+                E: <a href="mailto:portal@gulfcouncil.org">portal@gulfcouncil.org</a> <br><br>
+                <a href="https://coralreef.noaa.gov/" target="_blank"><img src="coral-id_2.png" class="foot-img" style="height:75px;"></a>
+                </p>
+                
+        </div>
+
+    
+   
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
