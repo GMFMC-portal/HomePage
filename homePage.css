@@ -79,6 +79,10 @@ h2#title {
     border-color: #f1e3e8;
 }
 
+li.nav-item.dropdown {
+    font-size: 1.25rem;
+}
+
 /* Carousel style elements */
 
 /*a {

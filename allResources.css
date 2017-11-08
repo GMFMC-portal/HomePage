@@ -77,6 +77,10 @@ body {
     border-color: #f1e3e8;
 }
 
+li.nav-item.dropdown {
+    font-size: 1.25rem;
+}
+
 
 /* Footer style */
 
