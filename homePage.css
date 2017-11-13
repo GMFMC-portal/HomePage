@@ -83,6 +83,11 @@ li.nav-item.dropdown {
     font-size: 1.25rem;
 }
 
+a#navbarDropdown.nav-link.dropdown-toggle:hover {
+    color: rgb(241,227,232);
+}
+
+
 /* Carousel style elements */
 
 /*a {
