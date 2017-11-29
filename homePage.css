@@ -139,9 +139,9 @@ a#navbarDropdown.nav-link.dropdown-toggle:hover {
 /* Icon section elements */
 
 p.margin20 {
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    /*text-align: left;*/
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 a.deco-none, a.deco-none:active,a.deco-none:visited,a.deco-none:focus {
@@ -161,15 +161,15 @@ p {
     margin-top: 1rem;
 }
 
-.col-md-3.col-xs-12 {
+.col-md-4.col-xs-12 {
     background-color: #ccc3bd;
     padding: 0;
-    max-width: 23.2%;
+    max-width: 28%;
     margin: 1vh auto 1vh auto;
     
 }
 
-#icon-cont.col-md-3.col-xs-12 {
+#icon-cont.col-md-4.col-xs-12 {
     box-shadow: 0 0 20px 8px rgba(0,0,0,.22);
 }
 
