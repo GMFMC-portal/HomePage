@@ -119,6 +119,12 @@ a#navbarDropdown.nav-link.dropdown-toggle:hover {
     text-align: center !important;
 }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
 
     @media (max-width: 768px) {
         .btn-responsive {
