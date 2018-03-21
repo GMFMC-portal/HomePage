@@ -1,0 +1,23 @@
+#slideOne {
+    background: #6993a4;
+}
+
+h1 {
+    margin-top: 1rem;
+    color: white;
+}
+
+p {
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.btn-sm {
+    margin: 0.5rem;
+    color: #233442;
+    background-color: #f1e3e8;
+    border-color: #f1e3e8;
+}

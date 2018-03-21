@@ -51,6 +51,27 @@ h2#title {
 
 }
 
+@media (max-width: 576px) { 
+    #logo{
+        display:none;
+    }
+    #CRCP {
+        display: none;
+    }
+    h2#title {
+        text-align: center;
+        font-size: 9vw;
+    }
+    .fa{
+        font-size: 5vw;
+    }
+    #titleCol {
+        margin-bottom: 2vh;
+    }
+ }
+
+
+
   /* Navbar style elements */
 
   .bg-light {
@@ -94,20 +115,25 @@ a#navbarDropdown.nav-link.dropdown-toggle:hover {
     color: yellow;
 }*/
 
+#carouselColumnOne, #carouselColumnTwo, #carouselColumnThree, #carouselColumnFour{
+    text-align: center;
+}
 .carousel-caption {
     left: 15%;
 }
 
-.btn-primary, .btn-primary:hover {
+#lightButton.btn-primary, #lightButton.btn-primary:hover {
     color: #233442;
     background-color: #f1e3e8;
     border-color: #f1e3e8;
+    text-align: center;
 }
 
-.btn-success, .btn-success:hover {
+#darkButton.btn-primary, #darkButton.btn-primary:hover {
     color: #f1e3e8;
-    background-color: #528789;
-    border-color: #528789;
+    background-color: #233442;
+    border-color: #233442;
+    text-align: center;
 }
 
 
@@ -119,28 +145,72 @@ a#navbarDropdown.nav-link.dropdown-toggle:hover {
     text-align: center !important;
 }
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
-  display: block;
+#carouselText {
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
 }
 
+#slideOne {
+    background: #6993a4;
+}
 
-    @media (max-width: 768px) {
-        .btn-responsive {
-          padding:2px 4px;
-          font-size:80%;
-          line-height: 1;
-        }
-      }
-      
-      @media (min-width: 769px) and (max-width: 992px) {
-        .btn-responsive {
-          padding:4px 9px;
-          font-size:90%;
-          line-height: 1.2;
-        }
-      }
+#slideTwo {
+    background: #233442;
+}
+
+#slideThree {
+    background: #f1e3e8;
+}
+
+#slideFour {
+    background: #2e5a64;
+}
+
+/* Adjusting for mobile */
+
+@media (max-width: 576px) { 
+    #slideImage{
+        display: none;
+}
+    #carouselColumnOne{
+        background: linear-gradient(
+            rgba(47,79,79, 0.3), 
+            rgba(47,79,79, 0.3)
+          ),
+          url('madrepora_close_hires.jpg');
+
+    }
+    #carouselColumnTwo{
+        background: linear-gradient(
+            rgba(47,79,79, 0.3), 
+            rgba(47,79,79, 0.3)
+          ),
+          url('elkhorn.jpg');
+
+    }
+
+    #carouselColumnThree{
+        background: linear-gradient(
+            rgba(255,255,255, 0.5), 
+            rgba(255,255,255, 0.5)
+          ),
+          url('odysseus-hires.jpg');
+
+    }
+
+    #carouselColumnFour{
+        background: linear-gradient(
+            rgba(0,0,0, 0.3), 
+            rgba(0,0,0, 0.3)
+          ),
+          url('estuary650.jpg');
+
+    }
+}
 
 /* Icon section elements */
 
@@ -163,11 +233,10 @@ i#icons {
 }
 
 p {
-    text-align: center;
     margin-top: 1rem;
 }
 
-.col-md-4.col-xs-12 {
+.col-md-4.col-sm-12 {
     background-color: #ccc3bd;
     padding: 0;
     max-width: 28%;
@@ -175,11 +244,18 @@ p {
     
 }
 
-#icon-cont.col-md-4.col-xs-12 {
-    box-shadow: 0 0 20px 8px rgba(0,0,0,.22);
+@media (max-width: 576px) { 
+            #icon-cont{
+        max-width: 100%;
+    }
 }
 
-.col-md-8.col-xs-12 p{
+#icon-cont.col-md-4.col-sm-12 {
+    box-shadow: 0 0 20px 8px rgba(0,0,0,.22);
+    text-align: center;
+}
+
+.col-md-8.col-sm-12 p{
     text-align: left;
     color: #555f61;
 }
@@ -257,7 +333,7 @@ a.deco-style {
     background: #3a3a3a;
     position: relative;
     text-align: center;
-    height: 300px;
+    /*height: 300px;*/
     }
 
 .footer p {
@@ -272,6 +348,7 @@ a.deco-style {
 
 img.foot-img {
     margin-left: -6vh;
+    margin-bottom: 1rem;
 }
 
 /*drop down menu*/
